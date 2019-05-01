@@ -1,4 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {background-color: rgba(255,0,0,1);}
+body {
+	height: auto;
+	margin: 0 30px 0 30px;
+	background-color: #E3E5E8;
+}
+#welcome {
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Poiret One', cursive;
+	letter-spacing: .17em;
+	color: #000;
+}
