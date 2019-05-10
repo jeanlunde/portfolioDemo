@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+/*	width: 1200px;*/
+	height: 768px;
+/*	background-image: url("../images/red-green-pieces.jpg");
+	background-repeat: no-repeat;*/
+}
+
+/*background-image {
+	position: no-repeat;
+}*/
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	height: inherit;
+}
+
+div.red-opaque {
+  width: 75px;
+  height: 100%;
+  background-color: rgba(255,0,66,1.00);
+  color: rgba(255,0,0,1.0);
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: move1 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: move1 5s infinite;
+} 
+
+div.red-translucent {
+  width: 75px;
+  height: 100%;
+  background-color: rgba(255,0,66,0.50);
+  color: rgba(255,0,0,0.5);
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: move2 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: move2 5s infinite;
+}
+
+div.green-translucent {
+  width: 75px;
+  height: 100%;
+  background-color: rgba(0,128,82,0.50);
+  color: rgba(255,0,0,0.5);
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: move3 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: move3 5s infinite;
+}
+
+div.green-opaque {
+  width: 75px;
+  height: 100%;
+  background-color: rgba(0,128,82,1.00);
+  color: rgba(255,0,0,1.0);
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: move4 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: move4 5s infinite;
+}
+
+a#animation-play:link, a#animation-play:visited {
+  background-color: rgba(255,0,66,1.00);
+  color: white;
+  padding: 25px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+a#animation-play:hover, a#animation-play:active {
+  background-color: rgba(0,128,82,1.00);
+}
+
+/* Safari 4.0 - 8.0 */
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease;}
+#div3 {-webkit-animation-timing-function: ease-in;}
+#div4 {-webkit-animation-timing-function: ease-out;}
+#div5 {-webkit-animation-timing-function: ease-in-out;}
+#div6 {-webkit-animation-timing-function: linear;}
+#div7 {-webkit-animation-timing-function: ease;}
+#div8 {-webkit-animation-timing-function: ease-in;}
+#div9 {-webkit-animation-timing-function: ease-out;}
+#div10 {-webkit-animation-timing-function: ease-in-out;}
+#div11 {-webkit-animation-timing-function: ease-in-out;}
+#div12 {-webkit-animation-timing-function: ease-out;}
+#div13 {-webkit-animation-timing-function: ease-in;}
+#div14 {-webkit-animation-timing-function: ease;}
+#div15 {-webkit-animation-timing-function: linear;}
+#div16 {-webkit-animation-timing-function: ease-in-out;}
+#div17 {-webkit-animation-timing-function: ease-out;}
+#div18 {-webkit-animation-timing-function: ease-in;}
+#div19 {-webkit-animation-timing-function: ease;}
+#div20 {-webkit-animation-timing-function: linear;}
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+#div6 {animation-timing-function: linear;}
+#div7 {animation-timing-function: ease;}
+#div8 {animation-timing-function: ease-in;}
+#div9 {animation-timing-function: ease-out;}
+#div10 {animation-timing-function: ease-in-out;}
+#div11 {animation-timing-function: ease-in-out;}
+#div12 {animation-timing-function: ease-out;}
+#div13 {animation-timing-function: ease-in;}
+#div14 {animation-timing-function: ease;}
+#div15 {animation-timing-function: linear;}
+#div16 {animation-timing-function: ease-in-out;}
+#div17 {animation-timing-function: ease-out;}
+#div18 {animation-timing-function: ease-in;}
+#div19 {animation-timing-function: ease;}
+#div20 {animation-timing-function: linear;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move1 {
+  from {left: 0px;}
+  to {left: 500px;}
+}
+	
+  @-webkit-keyframes move2 {
+  from {right: -500px;}
+  to {right: 0px;}
+}
+
+@-webkit-keyframes move3 {
+  from {right: 500px;}
+  to {right: 0px;}
+}
+	
+  @-webkit-keyframes move4 {
+  from {left: 0px;}
+  to {left: -500px;}
+}
+
+/* Standard syntax */
+@keyframes move1 {
+  from {left: 0px;}
+  to {left: 500px;}
+}
+
+@keyframes move2 {
+  from {right: -500px;}
+  to {right: 0px;}
+}
+
+@keyframes move3 {
+  from {right: 500px;}
+  to {right: 0px;}
+}
+
+@keyframes move4 {
+  from {left: 0px;}
+  to {left: -500px;}
+}

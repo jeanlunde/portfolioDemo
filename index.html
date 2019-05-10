@@ -1,45 +1,253 @@
 <!doctype html>
-<html class="no-js" lang="">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <meta name="theme-color" content="#fafafa">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="css/styles2.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One|Source+Sans+Pro:300,300i" rel="stylesheet">
+<title>Website Test 3</title>
+    <style>
+        footer {font-family: 'Poiret One', cursive; margin: 0 auto;}
+        
+@media screen and (orientation:portrait) and (max-width:375px){
+    .test{
+        color: red;
+        display: inline;
+        max-width: 319px;
+/*        font-size: 90%;*/
+    }
+     h1 {
+        letter-spacing: 0;
+       font-size: 1.5em;
+    }
+}
+    </style>
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<header> 
+  <!--
+		<nav>
+			<ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Contact</a>
+                </li>
+                <li class="dropdown">                    
+                    <a href="#" class="dropbtn">About</a>
+                </li>
 
-  <!-- Add your site or application content here -->
-    <div class="display-1" id="welcome">Welcome to Jean Lunde's website. The site is currently under construction and will be live shortly.</div>
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+				<li class="dropdown">
+                    <a href="#animation-link" class="dropbtn">Animation</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Projects &#9660;</a>
+                    <div class="dropdown-content">
+                        <a href="">Design Basics</a>
+                        <a href="">Photography</a>
+                        <a href="">Miscellaneous</a>
+                    </div>
+                </li>
+						
+			</ul>
+		</nav>
+-->
+  
+  <nav class="navbar navbar-expand-sm navbar-light bg-light"> 
+    <!--  Logo goes here--> 
+    <a class="navbar-brand" href="#"> <img src="images/logo-black-70%.png" alt="Jean Lunde logo"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Projects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects <span class="sr-only">(current)</span></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown-Projects"> <a class="dropdown-item" href="#">Design Basics</a> <a class="dropdown-item" href="#">Photography</a> <a class="dropdown-item" href="#">Miscellaneous</a> </div>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Animation</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="main-container"> 
+  
+  <!--        <div id="JAL-logo">
+            <a href="https://fontmeme.com/fonts/versal-gothic-font/"><img src="https://fontmeme.com/permalink/190508/da23e3aafc0d0290e8a4f0190436d220.png" alt="versal-gothic-font" border="0"></a>
+        </div>-->
+  
+  <div id="crossfade-gallery">
+    <div id="red-green-fade"> <img class="bottom" src="images/red-green2.jpg" alt="red and green squares"> <img class="top" src="images/red-green1.png" alt="red and green shapes"> </div>
+    <div id="spiral-fade"> <img class="bottom" src="images/spiral2.jpg" alt="nautilus shell"> <img class="top" src="images/spiral1.png" alt="fibonacci spiral"> </div>
+    <div id="gargoyle-fade"> <img class="bottom" src="images/gargoyle2.jpg" alt="Notre Dame gargoyle"> <img class="top" src="images/gargoyle1.jpg" alt="Notre Dame gargoyle"> </div>
+    <div id="gargoyletypography-fade"> <img class="bottom" src="images/gargoyle-typography2.jpg" alt="gargoyle typography"> <img class="top" src="images/gargoyle-typography1.jpg" alt="gargoyle typography"> </div>
+    <div id="familytree-fade"> <img class="bottom" src="images/famtree2.jpg" alt="family tree notes"> <img class="top" src="images/famtree1.jpg" alt="family tree finished image"> </div>
+    <div id="design-fade"> <img class="bottom" src="images/design2.jpg" alt="library photo"> <img class="top" src="images/design1.jpg" alt="page design"> </div>
+  </div>
+  <div id="signature"> <img src="images/50-fast.gif" alt="Jean Lunde's animated signature"> </div>
+  <div id="blockquote">
+    <p id="question">Where do ideas come from? </p>
+    <blockquote class="blockquote-reverse">
+      <p>I do not know. I'd like to think they are out there waiting to be found. On rare occasions, they approach me. In the meantime, I surround myself with images, motion, and sound.</p>
+      <cite>–Jean Lunde</cite> </blockquote>
+  </div>
+</div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<!--Design Basics section-->
+<h1 class="display-5 col-md-6 col-xs-6 test">PROJECTS, DESIGN BASICS</h1>
+<div class="container d-flex flex-wrap justify-content-around" style="height:auto">
+  <div class="row">
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/typography.jpg" alt="xxxxxxx"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/destijl.jpg" alt="xxxxxxx"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/red-and-green.jpg" alt="xxxxxxx"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/branded-items.jpg" alt="xxxxxxx"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/display-type.jpg" alt="xxxxxxx"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/gargoyle.jpg" alt="xxxxxxx"> </section>
+  </div>
+</div>
+
+<!--Photography section-->
+<h1 class="display-5 col-md-6 col-xs-6 test">PROJECTS, PHOTOGRAPHY &amp PHOTO EDITING;</h1>
+<div class="container d-flex flex-wrap justify-content-around" style="height:auto">
+  <div class="row">
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/library-books.jpg" alt="libary books"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/bridge.jpg" alt="Century bridge"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/kopp-center.jpg" alt="Kopp Center"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/science-lounge.jpg" alt="science lounge"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/library1.jpg" alt="libary"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/fabshop.jpg" alt="library"> </section>
+  </div>
+</div>
+
+<!--Design Basics section-->
+<!--
+<div class="container">
+  <div class="row">
+-->
+   
+      <h1 class="display-5 col-md-6 col-xs-6 test">PROJECTS, MISCELLANEOUS</h1>
+   
+<!--
+  </div>
+</div>
+-->
+<div class="container d-flex flex-wrap justify-content-around" style="height:auto">
+  <div class="row">
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/antenna-drawing.jpg" alt="antenna drawing"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/cable-drawing.jpg" alt="cable drawing"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/decal-drawing.jpg" alt="decal drawing"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/roll-transfer images.jpg" alt="roll of transfer images"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/family-tree.jpg" alt="family tree"> </section>
+    <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/family-tree.jpg" alt="family tree"> </section>
+  </div>
+</div>
+
+<!--Animation section--> 
+
+<!--
+	<h1 class="display-5" id="animation-link">ANIMATION</h1>
+	
+    	<div class="flex-container">
+	
+		<h1 class="display-1"><span style="color:rgba(255,0,0,1.0)">RED</span><span style="color:black" font-size="1em"> AND </span><span style="color:rgba(0,128,82,1.00);">GREEN</span></h1>
+			
+		<p>I wanted to take my red and green Design Basics piece transmedia. I photographed it and brought the image into Photoshop, where I selectively masked each piece onto its own layer. I then brought all forty-four layers into Adobe Animate and set up a timeline, causing each "puzzle" piece to fall into place.</p>
+
+		<div class="red-opaque" id="div1"></div>
+		<div class="red-opaque" id="div2"></div>
+		<div class="red-opaque" id="div3"></div>
+		<div class="red-opaque" id="div4"></div>
+		<div class="red-opaque" id="div5"></div>
+
+		<div class="red-translucent" id="div6"></div>
+		<div class="red-translucent" id="div7"></div>
+		<div class="red-translucent" id="div8"></div>
+		<div class="red-translucent" id="div9"></div>
+		<div class="red-translucent" id="div10"></div>
+
+		<div class="green-translucent" id="div16"></div>
+		<div class="green-translucent" id="div17"></div>
+		<div class="green-translucent" id="div18"></div>
+		<div class="green-translucent" id="div19"></div>
+		<div class="green-translucent" id="div20"></div> 
+
+		<div class="green-opaque" id="div11"></div>
+		<div class="green-opaque" id="div12"></div>
+		<div class="green-opaque" id="div13"></div>
+		<div class="green-opaque" id="div14"></div>
+		<div class="green-opaque" id="div15"></div>
+        
+       
+        <a id="animation-play" href="ADOBE ANIMATE/red-green-animate.html">Play animation</a>        
+	    
+    </div>
+-->
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="row bg-dark">
+      <div class="col-md-6 bg-dark" id="bio"> <img id="portrait" src="images/portrait.jpg" alt="Jean's portrait">
+        <p id="bio-text">After a career in engineering computer aided design (CAD), I'm enjoying the opportunity to exercise creativity once again. I graduated from St. Olaf College as an art major, then fell into engineering in the years that followed. Engineering gave me an appreciation for precision and revision control, but allowed only minimal creativity. I have an appreciation for design, because design allows me to integrate the technical skills I developed with my love of the arts. I have an interest in all forms of multimedia—especially web and animation. At present time, I'm curious about trends in web animation and user interactivity.</p>
+      </div>
+      <div class="col-md-4 bg-dark" id="expertise">
+        <h6>Expertise</h6>
+        <ul>
+          <li>Concept development</li>
+          <li>Web development and design</li>
+          <li>UI Motion</li>
+          <li>Moodboard</li>
+          <li>Animation</li>
+          <li>Photography</li>
+          <li>3D design</li>
+          <li>Branding</li>
+          <li>Color</li>
+          <li>Typography</li>
+        </ul>
+      </div>
+      <div class="col-md-2 bg-dark" id="logo-panel"> <img src="images/logo-white.png" id="logo" alt="Lunde logo"> </div>
+    </div>
+  </div>
+</section>
+<section id="contact"> </section>
+<footer>
+<!--  <h5>&copy2019 Jean lunde</h5>-->
+     <span class="h5" style="text-align: center; width: 100%;">&copy2019 Jean lunde</span>
+</footer>
+
+<!-- Optional JavaScript --> 
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
+
+<!-- Notes to myself
+(-BP)(-inline)-flex
+BP: sm>576px md>768px lg>992px xl>1200px
+
+flex(-BP)(-DIR)(-reverse)
+DIR: row column
+
+justify-content(-BP)-ALG
+ALG starat end center around between
+
+flex(-BP)-WrP(-reverse)
+WRP: wrap nowrap
+
+Vertical Alignment
+align-content(-BP)-ALG
+ALG start end center between around stretch
+
+Sizing
+SIZ(-AMT)
+SIZ: w h mw mh
+AMT: 25 50 75 100
+-->
+
+<!--Attribute nautilus image to author-->
+<!--	
+			<!--NautilusCutawayLogarithmicSpiral - Spiral - Wikipedia By Chris 73 / Wikimedia Commons, CC BY-SA 3.0, -->
+<!--</div>-->
