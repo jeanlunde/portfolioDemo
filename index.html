@@ -33,7 +33,14 @@
         letter-spacing: 0;
         font-size: 1.5em;
       }
+
     }
+
+    @media screen and (max-width:575px) {
+      .my-3 {
+        display: inline-block;
+        text-align: center;
+      }
   </style>
 </head>
 
@@ -67,50 +74,42 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="main-container">
-        <div id="crossfade-gallery">
-          <div id="red-green-fade"> <img class="bottom" src="images/red-green2.jpg" alt="red and green squares"> <img
-              class="top" src="images/red-green1.png" alt="red and green shapes"> </div>
-          <div id="spiral-fade"> <img class="bottom" src="images/spiral2.jpg" alt="nautilus shell"> <img class="top"
-              src="images/spiral1.png" alt="fibonacci spiral"> </div>
-          <div id="gargoyle-fade"> <img class="bottom" src="images/gargoyle2.jpg" alt="Notre Dame gargoyle"> <img
-              class="top" src="images/gargoyle1.jpg" alt="Notre Dame gargoyle"> </div>
-          <div id="gargoyletypography-fade"> <img class="bottom" src="images/gargoyle-typography2.jpg"
-              alt="gargoyle typography"> <img class="top" src="images/gargoyle-typography1.jpg"
-              alt="gargoyle typography"> </div>
-          <div id="familytree-fade"> <img class="bottom" src="images/famtree2.jpg" alt="family tree notes"> <img
-              class="top" src="images/famtree1.jpg" alt="family tree finished image"> </div>
-          <div id="design-fade"> <img class="bottom" src="images/design2.jpg" alt="library photo"> <img class="top"
-              src="images/design1.jpg" alt="page design"> </div>
+
+      <div id="crossfade-gallery">
+        <div id="red-green-fade"> <img class="bottom" src="images/red-green2.jpg" alt="red and green squares"> <img
+            class="top" src="images/red-green1.png" alt="red and green shapes"> </div>
+        <div id="spiral-fade"> <img class="bottom" src="images/spiral2.jpg" alt="nautilus shell"> <img class="top"
+            src="images/spiral1.png" alt="fibonacci spiral"> </div>
+        <div id="gargoyle-fade"> <img class="bottom" src="images/gargoyle2.jpg" alt="Notre Dame gargoyle"> <img
+            class="top" src="images/gargoyle1.jpg" alt="Notre Dame gargoyle"> </div>
+        <div id="gargoyletypography-fade"> <img class="bottom" src="images/gargoyle-typography2.jpg"
+            alt="gargoyle typography"> <img class="top" src="images/gargoyle-typography1.jpg" alt="gargoyle typography">
+        </div>
+        <div id="familytree-fade"> <img class="bottom" src="images/famtree2.jpg" alt="family tree notes"> <img
+            class="top" src="images/famtree1.jpg" alt="family tree finished image"> </div>
+        <div id="design-fade"> <img class="bottom" src="images/design2.jpg" alt="library photo"> <img class="top"
+            src="images/design1.jpg" alt="page design"> </div>
+      </div>
+      <!--      </div>-->
+
+
+      <div class="row col-12">
+        <div id="signature"> <img src="images/50-fast.gif" alt="Jean Lunde's animated signature">
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div id="signature"> <img src="images/50-fast.gif" alt="Jean Lunde's animated signature"> </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-      <div id="blockquote">
+      <div class="row col-12 justify-content-start">
         <p id="question">Where do ideas come from? </p>
-<!--
+      </div>
+      <div class="row col-12 justify-content-end">
         <blockquote class="blockquote-reverse">
-            <p><span class="quote">“</span>I do not know. I'd like to think they are out there waiting to be found. On rare occasions, they approach
-            me. In the meantime, I surround myself with images, motion, and sound.<span class="quote">”</span></p>
+          <p>I do not know. I'd like to think they are out there waiting to be found. On rare occasions, they approach
+            me. In the meantime, I surround myself with images, motion, and sound.</p>
           <cite>–Jean Lunde</cite>
         </blockquote>
--->
-          
-          
-              <blockquote class="blockquote-reverse">
-      <p>I do not know. I'd like to think they are out there waiting to be found. On rare occasions, they approach me. In the meantime, I surround myself with images, motion, and sound.</p>
-      <cite>–Jean Lunde</cite> </blockquote>
       </div>
-        </div>
     </div>
   </div>
-
 
 
   <!--Design Basics section-->
@@ -118,17 +117,17 @@
   <div class="container d-flex flex-wrap justify-content-around" style="height:auto">
     <div class="row">
       <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/typography.jpg"
-          alt="xxxxxxx"> </section>
+          alt="xxxxxxx" id="myImg1"> </section>
       <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/destijl.jpg"
-          alt="xxxxxxx"> </section>
+          alt="xxxxxxx" id="myImg2"> </section>
       <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated"
-          src="images/red-and-green.jpg" alt="xxxxxxx"> </section>
+          src="images/red-and-green.jpg" alt="xxxxxxx" id="myImg3"> </section>
       <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated"
-          src="images/branded-items.jpg" alt="xxxxxxx"> </section>
+          src="images/branded-items.jpg" alt="xxxxxxx" id="myImg4"> </section>
       <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated"
-          src="images/display-type.jpg" alt="xxxxxxx"> </section>
+          src="images/display-type.jpg" alt="xxxxxxx" id="myImg5"> </section>
       <section class="col-sm-6 col-md-4 col-lg-4 col-xl-2 my-3"> <img class="image-animated" src="images/gargoyle.jpg"
-          alt="xxxxxxx"> </section>
+          alt="xxxxxxx" id="myImg6"> </section>
     </div>
   </div>
 
@@ -180,10 +179,22 @@
     </div>
   </div>
 
+
+  <!--Modal section-->
+
+  <div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01" alt="modal image">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
   <!--Animation section-->
 
-  
-<!--
+
+  <!--
 	<h1 class="display-5" id="animation-link">ANIMATION</h1>
 	
     	<div class="flex-container">
@@ -270,6 +281,61 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img1 = document.getElementById('myImg1');
+    var img2 = document.getElementById('myImg2');
+    var img3 = document.getElementById('myImg3');
+    var img4 = document.getElementById('myImg4');
+    var img5 = document.getElementById('myImg5');
+    var img6 = document.getElementById('myImg6');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img1.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    img2.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    img3.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    img4.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    img5.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    img6.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
   </script>
 </body>
 
