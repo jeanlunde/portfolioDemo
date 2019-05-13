@@ -6,15 +6,14 @@
 
 body {
    	height: 100%;
-/*	background-color: #E3E5E8;*/
-    background-color: yellow;
+	background-color: #E3E5E8;
+/*  background-color: yellow;*/
 	padding: 0px;
 	margin: 0px;
 }
 
 #signature {
     width: 100%;
-/*    height: 90px;*/
     height: 135px;
     margin: 30px 0;
    
@@ -192,6 +191,7 @@ img.top {
 	color: #394158;
 	position: absolute;
 	height: auto;
+	padding-left: 15px;
 }
 
 .blockquote-reverse {
@@ -221,6 +221,11 @@ blockquote p::after {
    content: "”";
    margin: -1rem -4rem -3rem 0;
 }
+
+#space {
+	height: 150px;
+}
+
 /*ends here*/
 .image-animated {
 	
@@ -260,13 +265,13 @@ blockquote p::after {
   }
 }
 
-
+/*
 #image1, #image4 {
     cursor: pointer;
     transition: 0.3s;
 }
 
-#image1, #image4:hover {opacity: 0.6;}
+#image1, #image4:hover {opacity: 0.6;}*/
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -274,8 +279,79 @@ blockquote p::after {
   cursor: pointer;
   transition: 0.3s;
 }
+
+#myImg1:hover {
+	opacity: 0.6;
+}
+
+#myImg2:hover {	
+	opacity: 0.6;
+}
+
+#myImg3:hover {
+	opacity: 0.6;
+}
+
+#myImg4:hover {
+	opacity: 0.6;
+}
+
+#myImg5:hover {
+	opacity: 0.6;
+}
  
-#myImg:hover {opacity: 0.7;}
+#myImg6:hover {
+	opacity: 0.6;
+}
+
+#myImg7:hover {
+	opacity: 0.6;
+}
+
+#myImg8:hover {
+	opacity: 0.6;
+}
+
+#myImg9:hover {
+	opacity: 0.6;
+}
+
+#myImg10:hover {
+	opacity: 0.6;
+}
+
+#myImg11:hover {
+	opacity: 0.6;
+}
+
+#myImg12:hover {
+	opacity: 0.6;
+}
+
+#myImg13:hover {
+	opacity: 0.6;
+}
+
+#myImg14:hover {
+	opacity: 0.6;
+}
+
+#myImg15:hover {
+	opacity: 0.6;
+}
+
+#myImg16:hover {
+	opacity: 0.6;
+}
+
+#myImg17:hover {
+	opacity: 0.6;
+}
+
+#myImg18:hover {
+	opacity: 0.6;
+}
+
 
 /* The Modal (background) */
 .modal {
@@ -288,9 +364,7 @@ blockquote p::after {
   width: 100%;/* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
- /* background-color: rgb(0,0,0);*//* Fallback color */
-  background-color: rgba(74,84,85,0.85); 
-/*    background-color: rgba(255,0,0,1); this turns it red*/
+  background-color: rgba(0,0,0,0.85); 
 }
 
 /* Modal Content (Image) */
@@ -318,7 +392,7 @@ blockquote p::after {
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #000;
+  color: #FFF;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -340,6 +414,9 @@ blockquote p::after {
 }
 
 
+#about {
+	margin-top: 150px;
+}
 
 #portrait {
     width: 250px;
