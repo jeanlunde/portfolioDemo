@@ -1,0 +1,1 @@
+I created this site for a portfolio show in the Spring of 2019. Its content represents some of the work I created for my various Visual Communications Technology (VCT) courses over the last two years.
